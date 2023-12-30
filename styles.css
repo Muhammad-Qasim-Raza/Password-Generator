@@ -1,0 +1,96 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('space-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #ffffff;
+    overflow: hidden;
+}
+
+#password-generator {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5vw;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 500px;
+}
+
+h2 {
+    color: #ffcc00;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+label {
+    color: #ffffff;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 1.2em;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #eeeeee;
+    border: none;
+    outline: none;
+    height: 10px;
+    border-radius: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #ffcc00;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+button, #copy-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #333333;
+}
+
+button:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+#copy-button {
+    background-color: #33cc33;
+    color: #ffffff;
+}
+
+#copy-button:hover {
+    background-color: #2db82d;
+    transform: scale(1.05);
+}
+
+#password {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    user-select: none;
+    color: #333333;
+}
